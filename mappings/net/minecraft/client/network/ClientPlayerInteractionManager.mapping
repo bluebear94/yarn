@@ -123,3 +123,5 @@ CLASS net/minecraft/class_636 net/minecraft/client/network/ClientPlayerInteracti
 		ARG 1 pos
 		ARG 2 includeData
 	METHOD method_75407 attackWithPiercingWeapon (Lnet/minecraft/class_12126;Lnet/minecraft/class_12125;)V
+		ARG 1 swingAnimation
+		ARG 2 piercingWeaponComponent
