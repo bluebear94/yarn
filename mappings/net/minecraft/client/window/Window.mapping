@@ -123,7 +123,6 @@ CLASS net/minecraft/class_1041 net/minecraft/client/window/Window
 	METHOD method_4494 onWindowFocusChanged (Z)V
 		ARG 1 focused
 	METHOD method_4495 getScaleFactor ()I
-	METHOD method_4498 isFullscreen ()Z
 	METHOD method_4499 getX ()I
 	METHOD method_4502 getScaledHeight ()I
 	METHOD method_4504 onFramebufferSizeChanged (II)V

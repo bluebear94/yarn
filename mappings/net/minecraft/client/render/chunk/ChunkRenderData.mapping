@@ -8,7 +8,7 @@ CLASS net/minecraft/class_11516 net/minecraft/client/render/chunk/ChunkRenderDat
 	FIELD field_60939 translucencySortingData Lnet/minecraft/class_9801$class_9802;
 	FIELD field_60940 pos Lnet/minecraft/class_10196;
 	FIELD field_60941 buffersByLayer Ljava/util/Map;
-	METHOD <init> (Lnet/minecraft/class_10196;Lnet/minecraft/class_9810$class_9811;)V
+	METHOD <init> (Lnet/minecraft/class_10196;Lnet/minecraft/class_9810$class_9811;J)V
 		ARG 1 pos
 		ARG 2 renderData
 	METHOD method_1_2367 isIndexBufferUploaded (Lnet/minecraft/class_11515;)Z

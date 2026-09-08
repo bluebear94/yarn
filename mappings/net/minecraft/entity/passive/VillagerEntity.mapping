@@ -101,7 +101,6 @@ CLASS net/minecraft/class_1646 net/minecraft/entity/passive/VillagerEntity
 		ARG 0 villager
 		ARG 1 poi
 	METHOD method_30958 releaseAllTickets ()V
-	METHOD method_49695 sendOffersToCustomer ()V
 	METHOD method_51304 (Lnet/minecraft/class_1799;)Z
 		ARG 0 stack
 	METHOD method_63012 (JLjava/lang/Long;)Z

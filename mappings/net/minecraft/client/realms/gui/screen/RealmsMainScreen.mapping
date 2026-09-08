@@ -186,7 +186,7 @@ CLASS net/minecraft/class_4325 net/minecraft/client/realms/gui/screen/RealmsMain
 	METHOD method_64834 getGameModeText (IZ)Lnet/minecraft/class_2561;
 		ARG 0 id
 		ARG 1 hardcore
-	METHOD method_73335 (Ljava/lang/String;Z)V
+	METHOD method_73335 (Ljava/net/URI;Z)V
 		ARG 2 confirmed
 	CLASS class_4329 RealmSelectionList
 		METHOD method_64840 refresh (Lnet/minecraft/class_4325;)V

@@ -27,12 +27,11 @@ CLASS net/minecraft/class_8204 net/minecraft/client/realms/dto/RealmsNotificatio
 		FIELD field_43025 URL_KEY Ljava/lang/String;
 		FIELD field_43026 BUTTON_TEXT_KEY Ljava/lang/String;
 		FIELD field_43027 MESSAGE_KEY Ljava/lang/String;
-		FIELD field_43028 url Ljava/lang/String;
+		FIELD field_43028 url Ljava/net/URI;
 		FIELD field_43029 buttonText Lnet/minecraft/class_8206;
 		FIELD field_43030 message Lnet/minecraft/class_8206;
-		METHOD <init> (Lnet/minecraft/class_8204;Ljava/lang/String;Lnet/minecraft/class_8206;Lnet/minecraft/class_8206;)V
+		METHOD <init> (Lnet/minecraft/class_8204;Ljava/net/URI;Lnet/minecraft/class_8206;Lnet/minecraft/class_8206;)V
 			ARG 1 parent
-			ARG 2 url
 			ARG 3 buttonText
 			ARG 4 message
 		METHOD method_49579 fromJson (Lnet/minecraft/class_8204;Lcom/google/gson/JsonObject;)Lnet/minecraft/class_8204$class_8205;

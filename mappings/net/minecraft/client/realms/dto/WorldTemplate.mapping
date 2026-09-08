@@ -3,9 +3,9 @@ CLASS net/minecraft/class_4890 net/minecraft/client/realms/dto/WorldTemplate
 	FIELD comp_5040 name Ljava/lang/String;
 	FIELD comp_5041 version Ljava/lang/String;
 	FIELD comp_5042 author Ljava/lang/String;
-	FIELD comp_5043 link Ljava/lang/String;
+	FIELD comp_5043 link Ljava/net/URI;
 	FIELD comp_5044 image Ljava/lang/String;
-	FIELD comp_5045 trailer Ljava/lang/String;
+	FIELD comp_5045 trailer Ljava/net/URI;
 	FIELD comp_5046 recommendedPlayers Ljava/lang/String;
 	FIELD comp_5047 type Lnet/minecraft/class_4890$class_4323;
 	FIELD field_22675 LOGGER Lorg/slf4j/Logger;
@@ -13,9 +13,9 @@ CLASS net/minecraft/class_4890 net/minecraft/client/realms/dto/WorldTemplate
 	METHOD comp_5040 name ()Ljava/lang/String;
 	METHOD comp_5041 version ()Ljava/lang/String;
 	METHOD comp_5042 author ()Ljava/lang/String;
-	METHOD comp_5043 link ()Ljava/lang/String;
+	METHOD comp_5043 link ()Ljava/net/URI;
 	METHOD comp_5044 image ()Ljava/lang/String;
-	METHOD comp_5045 trailer ()Ljava/lang/String;
+	METHOD comp_5045 trailer ()Ljava/net/URI;
 	METHOD comp_5046 recommendedPlayers ()Ljava/lang/String;
 	METHOD comp_5047 type ()Lnet/minecraft/class_4890$class_4323;
 	METHOD method_25096 parse (Lcom/google/gson/JsonObject;)Lnet/minecraft/class_4890;

@@ -5,7 +5,7 @@ CLASS net/minecraft/class_4419 net/minecraft/client/realms/gui/screen/RealmsSele
 	FIELD field_20074 selectButton Lnet/minecraft/class_4185;
 	FIELD field_20075 trailerButton Lnet/minecraft/class_4185;
 	FIELD field_20076 publisherButton Lnet/minecraft/class_4185;
-	FIELD field_20078 currentLink Ljava/lang/String;
+	FIELD field_20078 currentLink Ljava/net/URI;
 	FIELD field_20079 worldType Lnet/minecraft/class_4877$class_4321;
 	FIELD field_20085 noTemplatesMessage Ljava/util/List;
 	FIELD field_22721 SLOT_FRAME_TEXTURE Lnet/minecraft/class_2960;

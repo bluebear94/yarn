@@ -10,7 +10,7 @@ CLASS net/minecraft/class_1_1486 net/minecraft/client/realms/gui/RealmsHeader
 	FIELD field_1_10138 joinRealmButton Lnet/minecraft/class_4185;
 	FIELD field_1_10139 client Lnet/minecraft/class_310;
 	FIELD field_1_10140 newsNotificationButton Lnet/minecraft/class_1_1486$class_8651;
-	FIELD field_1_10141 newsLink Ljava/lang/String;
+	FIELD field_1_10141 newsLink Ljava/net/URI;
 	FIELD field_1_10142 invitesNotificationButton Lnet/minecraft/class_1_1486$class_8651;
 	FIELD field_1_10143 parent Lnet/minecraft/class_437;
 	METHOD <init> (Lnet/minecraft/class_437;Ljava/lang/Runnable;)V
@@ -29,8 +29,7 @@ CLASS net/minecraft/class_1_1486 net/minecraft/client/realms/gui/RealmsHeader
 	METHOD method_1_9886 openNews ()V
 	METHOD method_1_9887 setJoinRealmButtonEnabled (Z)V
 		ARG 1 enabled
-	METHOD method_1_9888 updateNewsStatus (Ljava/lang/String;Z)V
-		ARG 1 newsLink
+	METHOD method_1_9888 updateNewsStatus (Ljava/net/URI;Z)V
 		ARG 2 hasUnreadNews
 	METHOD method_1_9889 setPendingInviteCount (I)V
 		ARG 1 pendingInviteCount
