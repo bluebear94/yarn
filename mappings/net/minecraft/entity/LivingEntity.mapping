@@ -291,7 +291,7 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 	METHOD method_6058 getActiveHand ()Lnet/minecraft/class_1268;
 	METHOD method_6059 hasStatusEffect (Lnet/minecraft/class_6880;)Z
 		ARG 1 effect
-	METHOD method_6060 knockback (Lnet/minecraft/class_1309;Lnet/minecraft/class_1282;F)V
+	METHOD method_6060 knockback (Lnet/minecraft/class_1309;Lnet/minecraft/class_1282;FZ)V
 		ARG 1 target
 		ARG 2 source
 		ARG 3 damageAmount
@@ -345,7 +345,7 @@ CLASS net/minecraft/class_1309 net/minecraft/entity/LivingEntity
 	METHOD method_6088 getActiveStatusEffects ()Ljava/util/Map;
 	METHOD method_6089 containsOnlyAmbientEffects (Ljava/util/Collection;)Z
 		ARG 0 effects
-	METHOD method_6090 takeShieldHit (Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;Lnet/minecraft/class_1282;F)V
+	METHOD method_6090 takeShieldHit (Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;Lnet/minecraft/class_1282;FZ)V
 		ARG 1 world
 		ARG 2 attacker
 		ARG 3 source
