@@ -13,6 +13,8 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 	FIELD field_1_8347 drawOutlines Z
 	FIELD field_1_9535 useMultiDrawTerrainRendering Z
 	FIELD field_1_9872 multiDrawIndirectSupported Z
+	FIELD field_1_10536 sectionRebuilds Ljava/util/concurrent/BlockingQueue;
+	FIELD field_1_10537 transientBlockRenderStates Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;
 	FIELD field_4109 entityRenderManager Lnet/minecraft/class_898;
 	FIELD field_4112 chunks Lnet/minecraft/class_769;
 	FIELD field_20951 bufferBuilders Lnet/minecraft/class_4599;
@@ -110,6 +112,17 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 	METHOD method_1_9603 renderSeeThroughFeatures (Lnet/minecraft/class_11684$class_1_875;Lnet/minecraft/class_276;)V
 		ARG 1 preparedFrame
 		ARG 2 mainFramebuffer
+	METHOD method_1_10489 addTransientBlockState (JLnet/minecraft/class_1_1678;)V
+		ARG 1 pos
+		ARG 3 state
+	METHOD method_1_10490 removeStaleTransientBlocks ()V
+	METHOD method_1_10491 onSectionRebuild (JJ)V
+		ARG 1 sectionPos
+		ARG 3 compileTaskStartTimeNs
+	METHOD method_1_10492 renderTransientBlocks (Lnet/minecraft/class_4587;Lnet/minecraft/class_11659;Lnet/minecraft/class_11658;)V
+		ARG 1 matrices
+		ARG 2 queue
+		ARG 3 renderStates
 	METHOD method_3242 onResized (II)V
 		ARG 1 width
 		ARG 2 height

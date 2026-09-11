@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_1_1680 net/minecraft/network/packet/s2c/play/AddTransientBlockS2CPacket
+	FIELD field_1_10548 PACKET_CODEC Lnet/minecraft/class_9139;
+	FIELD field_1_10549 state Lnet/minecraft/class_2680;
+	FIELD field_1_10550 pos Lnet/minecraft/class_2338;
+	METHOD <init> (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V
+		ARG 1 pos
+		ARG 2 state
+	METHOD <init> (Lnet/minecraft/class_9129;)V
+		ARG 1 buf
+	METHOD method_1_10501 getState ()Lnet/minecraft/class_2680;
+	METHOD method_1_10502 getPos ()Lnet/minecraft/class_2338;
+	METHOD method_1_10504 encode (Lnet/minecraft/class_9129;)V
+		ARG 1 buf

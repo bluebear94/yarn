@@ -3,6 +3,12 @@ CLASS net/minecraft/class_4431 net/minecraft/client/realms/util/JsonUtils
 		ARG 0 key
 		ARG 1 node
 		ARG 2 defaultValue
+	METHOD method_1_10487 getUri (Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/net/URI;
+		ARG 0 key
+		ARG 1 node
+	METHOD method_1_10488 getNullableUri (Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/net/URI;
+		ARG 0 key
+		ARG 1 node
 	METHOD method_21544 getInstantOrEpoch (Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/time/Instant;
 		ARG 0 key
 		ARG 1 node
