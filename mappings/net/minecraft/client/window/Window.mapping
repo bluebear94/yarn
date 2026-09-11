@@ -98,6 +98,8 @@ CLASS net/minecraft/class_1041 net/minecraft/client/window/Window
 		ARG 3 width
 		ARG 4 height
 	METHOD method_1_10455 isFullscreenBorderless ()Z
+	METHOD method_1_10485 restoreWindow ()V
+	METHOD method_1_10486 syncWindow ()V
 	METHOD method_4474 setPhase (Ljava/lang/String;)V
 		ARG 1 phase
 	METHOD method_4475 applyFullscreenVideoMode ()V

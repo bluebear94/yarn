@@ -1,0 +1,2 @@
+CLASS net/minecraft/class_1_1676 net/minecraft/client/render/block/TransientBlock
+	FIELD field_1_10540 DEFAULT_TIME_TO_LIVE D

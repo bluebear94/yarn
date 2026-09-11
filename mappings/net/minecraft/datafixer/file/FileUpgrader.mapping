@@ -54,6 +54,7 @@ CLASS net/minecraft/class_1_193 net/minecraft/datafixer/file/FileUpgrader
 		ARG 1 moves
 		ARG 2 filefixDir
 		ARG 3 newWorldDir
+		ARG 4 progress
 	METHOD method_1_1708 adjustVersion (I)I
 		ARG 0 version
 	METHOD method_1_1709 fixLevelDat (Ljava/nio/file/Path;I)V

@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_12195 net/minecraft/world/attribute/BedRule
+	FIELD field_1_8283 OVERWORLD_STRAW Lnet/minecraft/class_12195;
 	FIELD field_63703 OVERWORLD Lnet/minecraft/class_12195;
 	FIELD field_63704 OTHER_DIMENSION Lnet/minecraft/class_12195;
 	METHOD method_75641 getFailureReason ()Lnet/minecraft/class_1657$class_1658;

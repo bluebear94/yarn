@@ -1,0 +1,13 @@
+CLASS net/minecraft/class_1_1677 net/minecraft/datafixer/fix/DebugProfilePostEffectsFix
+	FIELD field_1_10543 newFieldName Ljava/lang/String;
+	FIELD field_1_10544 oldFieldName Ljava/lang/String;
+	METHOD <init> (Lcom/mojang/datafixers/schemas/Schema;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 outputSchema
+		ARG 2 oldFieldName
+		ARG 3 newFieldName
+	METHOD method_1_10497 (Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
+		ARG 1 debugProfileTyped
+	METHOD method_1_10498 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ARG 1 debugProfile
+	METHOD method_1_10499 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ARG 1 custom

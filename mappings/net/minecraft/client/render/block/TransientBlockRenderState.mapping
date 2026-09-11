@@ -1,0 +1,5 @@
+CLASS net/minecraft/class_1_1678 net/minecraft/client/render/block/TransientBlockRenderState
+	FIELD field_1_10545 createTimeNs J
+	FIELD field_1_10546 removeTimeNs J
+	FIELD field_1_10547 movingBlock Lnet/minecraft/class_11791;
+	CLASS class_1_1679 SectionRebuild

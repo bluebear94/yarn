@@ -110,6 +110,7 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBuilder
 			METHOD method_62977 getOrigin ()Lnet/minecraft/class_2338;
 			CLASS class_4690 Result
 		CLASS class_4578 RebuildTask
+			FIELD field_1_10542 timestamp J
 			FIELD field_20838 region Lnet/minecraft/class_853;
 			METHOD <init> (Lnet/minecraft/class_846$class_851;Lnet/minecraft/class_853;Z)V
 				ARG 2 region

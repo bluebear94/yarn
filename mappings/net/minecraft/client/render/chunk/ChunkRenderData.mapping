@@ -1,6 +1,7 @@
 CLASS net/minecraft/class_11516 net/minecraft/client/render/chunk/ChunkRenderData
 	FIELD field_1_1952 indexBufferUploaded Ljava/util/Map;
 	FIELD field_1_1953 vertexBufferUploaded Ljava/util/Map;
+	FIELD field_1_10541 compileTaskStartTime J
 	FIELD field_60935 HIDDEN Lnet/minecraft/class_11517;
 	FIELD field_60936 READY Lnet/minecraft/class_11517;
 	FIELD field_60937 blockEntities Ljava/util/List;
@@ -11,6 +12,7 @@ CLASS net/minecraft/class_11516 net/minecraft/client/render/chunk/ChunkRenderDat
 	METHOD <init> (Lnet/minecraft/class_10196;Lnet/minecraft/class_9810$class_9811;J)V
 		ARG 1 pos
 		ARG 2 renderData
+		ARG 3 compileTaskStartTimeNs
 	METHOD method_1_2367 isIndexBufferUploaded (Lnet/minecraft/class_11515;)Z
 		ARG 1 blockRenderLayer
 	METHOD method_1_2368 isVertexBufferUploaded (Lnet/minecraft/class_11515;)Z
